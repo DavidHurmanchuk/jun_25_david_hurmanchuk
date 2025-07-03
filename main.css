@@ -1,8 +1,6 @@
-body{
-    background-color: fff;
+body {
+  background-color: fff;
 }
-
-
 
 .person {
   display: flex;
@@ -36,16 +34,14 @@ body{
 .photo:hover .pay {
   opacity: 1;
   cursor: pointer;
-  z-index: 10
+  z-index: 10;
 }
 
 .photo img {
   width: 100%;
   border-radius: 50%;
   display: block;
-  transition: 
-    transform 1s ease, 
-    border-radius 1s ease;
+  transition: transform 1s ease, border-radius 1s ease;
 }
 
 .rank {
@@ -84,7 +80,7 @@ body{
   color: #555;
 }
 
-.extra{
+.extra {
   font-weight: bold;
   margin-left: 8px;
 }
@@ -102,22 +98,20 @@ body{
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-.person{
-   transition: transform 1s ease;
+.person {
+  transition: transform 1s ease;
 }
 
-.person:hover{
+.person:hover {
   transform: scale(1.2);
   background-color: #eee;
   border-radius: 12px;
-
-  .photo{
-    border-radius: 6px;
-  }
+}
+.person:hover .photo {
+  border-radius: 6px;
 }
 
-.photo img:hover{
+.photo img:hover {
   border-radius: 60px;
   max-width: 300px;
-}
+}/*# sourceMappingURL=main.css.map */
